@@ -1,4 +1,7 @@
+from database import engine, Base
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from routers import chat, orders
 from fastapi.middleware.cors import CORSMiddleware
 from database import engine, Base
 from routers import chat, orders
