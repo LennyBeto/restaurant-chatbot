@@ -18,3 +18,7 @@ app.add_middleware(
 
 app.include_router(chat.router)
 app.include_router(orders.router)
+
+@app.get("/")
+def root():
+    return {"status": "ok"}
