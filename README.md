@@ -1,6 +1,6 @@
 # Casa Fusion — AI Restaurant Chatbot
 
-A full-stack AI-powered chatbot for a Mexican fusion restaurant. Customers can ask questions about the menu, place orders, and get instant responses — all through a conversational chat interface. Built with FastAPI, Claude AI, PostgreSQL, and React.
+A full-stack AI-powered chatbot for a Mexican fusion restaurant. Customers can ask questions about the menu, place orders, and get instant responses — all through a conversational chat interface. Built with FastAPI, Claude AI, PostgreSQL, and React. 
 
 ---
 
