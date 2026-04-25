@@ -1,7 +1,4 @@
-from database import engine, Base
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from routers import chat, orders
 from fastapi.middleware.cors import CORSMiddleware
 from database import engine, Base
 from routers import chat, orders
@@ -12,7 +9,9 @@ app = FastAPI(title="Casa Fusion Chatbot")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:5173",
+        "https://restaurant-chatbot.vercel.app",
+        ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
