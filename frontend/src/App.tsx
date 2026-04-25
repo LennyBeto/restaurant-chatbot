@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { sendMessage, Message, Order } from "./api/chat";
+import { sendMessage } from "./api/chat";
+import type { Message, Order } from "./api/chat";
 import OrderSummary from "./components/OrderSummary";
 
 export default function App() {

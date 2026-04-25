@@ -1,4 +1,4 @@
-import { Order } from "../api/chat";
+import type { Order } from "../api/chat";
 
 export default function OrderSummary({ order }: { order: Order }) {
   return (
