@@ -9,9 +9,8 @@ app = FastAPI(title="Casa Fusion Chatbot")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173",
-        "https://restaurant-chatbot-pi.vercel.app",
-        ],
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
