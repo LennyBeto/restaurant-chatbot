@@ -37,7 +37,7 @@ React Frontend  ──►  FastAPI Backend  ──►  Claude API (claude-sonnet
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 restaurant-chatbot/
@@ -194,7 +194,7 @@ Frontend runs at `http://localhost:5173`
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Chat
 
@@ -382,7 +382,7 @@ curl -X POST http://localhost:8000/chat/ \
 
 ## Author
 
-**Beto Lenny**
+**Lenny Beto**
 GitHub: [github.com/LennyBeto](https://github.com/LennyBeto)
 
 ---
